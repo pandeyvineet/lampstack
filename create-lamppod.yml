@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: lamp-pod
+spec:
+   containers:
+   - name: lamp-container
+     image: linode/lamp
+     ports:
+     - containerPort: 80
